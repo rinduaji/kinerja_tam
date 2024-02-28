@@ -1,0 +1,306 @@
+/**
+ * primezilla.css
+ *
+ * The stylesheet for the primezilla component
+ *
+ *
+ * @package com_primezilla
+ * @subpackage frontend
+ *
+ * @copyright 2006 joomster.com Achim Fischer
+ * @author Achim Fischer
+ *
+ * This file is part of joomster.com Primezilla.
+ *
+ * Primezilla is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * Primezilla is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Primezilla; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+ */
+
+
+br {
+	clear: both;
+}
+
+h2 {
+	font-size: 14px;
+    font-weight: bold;
+    color: #777777;
+    margin-left: 10px;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.jooWrapper {
+	width: 100%;
+	background-color: white;
+	padding: 2px;
+}
+
+
+.jooInboxTable {
+    width: 100%;
+    font-weight: normal;
+	background-color: lightgrey;
+}
+
+.jooInboxCellHeader {
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	background-color: #EEEEEE;
+	color: #000000;
+	font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+}
+.jooOutboxCellHeader {
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	background-color: #EEEEEE;
+	color: #000000;
+	font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+.jooInboxCellRead {
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	background-color: #F7F7F7;
+	border-collapse: collapse;
+	font-size: 12px;
+    font-weight: normal;
+    text-align: left;
+}
+.jooInboxCellRead a {
+    font-weight: normal;
+    text-decoration: none;
+}
+.jooInboxCellRead a:hover {
+    font-weight: normal;
+    text-decoration: none;
+}
+.jooInboxCellRead a:visited {
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
+.jooInboxCellUnread {
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	border-collapse: collapse;
+	background-color: #F7F7F7;
+	font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+
+
+
+
+
+/* settings for topmenu */
+table.jooTopmenu {
+  width: 100%;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+table.jooTopmenu td {
+  width: 150px;
+  border-left: 1px solid #FFFFFF;
+  border-top: 1px solid #FFFFFF;
+  background: #EEEEEE;
+  padding: 5px;
+  margin: 0px;
+  text-align: center;
+  font-size: 12px;
+}
+
+
+
+/* Settings for Forms */
+.jooWriteFormLabel {
+    float:left;
+    font-weight: bold;
+    text-align: left;
+    width: 12em;
+}
+
+#jooWriteFormSubject {
+    font-weight: normal;
+    text-align: left;
+    width: 200px;
+    border: 1px solid red;
+}
+
+
+#jooTopmenuRow {
+    /* border: 1px solid blue; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+#jooInfoSuccess {
+    border: 1px solid lightgrey;
+    background: #EEFFEE;
+    color: #777777;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+}
+
+#jooInfoError {
+    border: 1px solid lightgrey;
+    background: #FFEEEE;
+    color: #777777;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+}
+
+
+
+/* read page */
+.jooReadTable {
+    margin-top: 10px;
+}
+
+.jooReadTable td {
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	border-collapse: collapse;
+	background-color: #F7F7F7;
+	font-size: 12px;
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+.jooReadTable th {
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	background-color: #EEEEEE;
+	color: #000000;
+	font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+
+
+#jooReadTableSubject {
+	background-color: #EEEEEE;
+	font-size: 12px;
+	font-weight: bold;
+    text-align: left;
+    padding: 5px;
+}
+
+
+
+.jooFooter {
+    color: #BBBBBB;
+    font-size: 9px;
+    text-align: center;
+}
+
+.jooFooter a {
+    color: #BBBBBB;
+    font-size: 9px;
+    text-align: center;
+    text-decoration: none;
+}
+#jooFooterIE {
+    color: #BBBBBB;
+    font-size: 9px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Form for write.php */
+#msgform input {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 12px;
+}
+#msgform textarea {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+/* Form for preferences.php */
+#preferencesform input {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 12px;
+}
+#preferencesform textarea {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 12px;
+}
+#preferencesform input {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+
+/* Ajax functions */
+
+div.msg_to {
+     /* position:absolute; */
+      width:350px;
+	  height: 200px;
+	  overflow: auto;
+      background-color: #EFEFEF;
+      border:1px solid #AAAAAA;
+      margin:0px;
+      padding:3px;
+}
+div.msg_to ul {
+      list-style-type:none;
+      margin:0px;
+      padding:3px;
+}
+div.msg_to ul li.selected {
+      background-color: #BBFFBB;
+      background-image: none;
+      border: 1px solid green;
+      padding:2px;
+}
+div.msg_to ul li {
+      list-style-type:none;
+      background-image: none;
+      display:block;
+      margin:0;
+      padding:3px;
+      cursor:pointer;
+}
+
+
+

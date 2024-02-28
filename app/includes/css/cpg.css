@@ -1,0 +1,78 @@
+/*********************************************
+  CPG Dragonfly™ CMS
+  ********************************************
+  Copyright © 2004 - 2005 by CPG-Nuke Dev Team
+  http://dragonflycms.org
+
+  Dragonfly is released under the terms and conditions
+  of the GNU GPL version 2 or any later version
+
+  $Source: /cvs/html/includes/css/cpg.css,v $
+  $Revision: 9.3 $
+  $Author: djmaze $
+  $Date: 2005/12/17 04:05:49 $
+**********************************************/
+
+body {
+	font-family: Verdana,Helvetica;
+	font-size: 10px;
+	background-color: #E5E5E5;
+	color: #000;
+}
+
+.helphead {
+	background-color: #0065DE;
+	color: #FFF;
+	font-size: 10px;
+	width: 244px;
+	padding: 3px;
+	vertical-align: middle;
+}
+.helpcontent {
+	width: 240px;
+	background-color: #FFF;
+	border: 1px solid #069;
+	padding: 4px;
+}
+
+td {
+	font-size: 10px;
+}
+
+.headtable {
+	width: 96%;
+	border-width: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+	padding: 0;
+}
+.head {
+	background-color: #069;
+	background-image: url(../../images/back.gif);
+	height: 100px;
+	border-width: 0;
+	border-spacing: 2px;
+	padding: 2px;
+	width: 100%;
+}
+
+.header {
+	font-size: 48px;
+	color: #FFF;
+}
+
+.table1 {
+	width: 100%;
+	background-color: #FFF;
+	border: 1px solid #069;
+	border-spacing: 0;
+	padding: 7px;
+}
+
+.formfield {
+	background-color: #fff;
+	border: 1px #ccf solid;
+	font-family: Tahoma, Trebuchet MS, Arial, Verdana;
+	font-size: 13px;
+	color: #000;
+}

@@ -1,0 +1,57 @@
+
+
+
+.headnya {
+	background-image: url(../images/108.bmp);
+	background-repeat: no-repeat;
+
+}
+a:link {
+	color: #AC6617;
+	text-decoration: none;
+}
+a:visited {
+	color: #A6617;
+	text-decoration: none;
+
+}/*
+input {
+	 background-color: #EBEAE2; 
+	border: 1px dotted #EBEAE2;
+}*/
+select {
+	background-color: #EBEAE2;
+	border: 1px dotted #EBEAE2;
+	font-size: 11px;
+
+}
+textarea {
+
+	background-color: #EBEAE2;
+	border: 1px dotted #EBEAE2;
+}
+option {
+	background-color: #EBEAE2;
+	border: 1px dotted #EBEAE2;
+	font-size: 11px;
+
+}
+
+
+a:hover {
+	/*color: #403D6E;*/
+	color: #EBEAE2;
+	text-decoration: none;
+}
+a:active {
+	color: #AC6617;
+	text-decoration: none;
+}
+.grid {
+	background-image: url(../images/grid1.gif);
+}
+
+
+
+
+

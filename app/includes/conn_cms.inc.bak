@@ -1,0 +1,10 @@
+<?
+$cmshost = '172.5.5.54';
+$cmsname = 'cms';
+$cmsuname = 'root';
+$cmspass = 'Admingcc';
+$con_cms=mysql_connect("$cmshost","$cmsuname","$cmspass");
+if (!$con_cms) {die('Koneksi ke Mysql gagal: ' . mysql_error());}
+mysql_select_db(cms) or die( "Tidak dapat memilih data base");
+define('CON_CMS', true);
+?>

@@ -1,0 +1,65 @@
+/*
+  The original subSilver Theme for phpBB version 2+
+  Created by subBlue design
+  http://www.subBlue.com
+*/
+
+
+ /* General page style. The scroll bar colours only visible in IE5.5+ */
+body {
+	color:#000000;
+	FONT-FAMILY: 'trebuchet ms',helvetica,sans-serif;
+}
+
+.garis	{ background-color: #EBEBEB; border: 2px #DEDEDE solid; }
+.ganjil{background-color:#f1f1f1;}
+.genap{background-color:#e8e8e8;}
+TD {color: #7A7A7A;font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 10pt;}
+
+select.btn {
+	BORDER-RIGHT: #A4A4B0 1px solid; 
+	BORDER-TOP: #A4A4B0 1px solid; 
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 100%; 
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#00000000', EndColorStr='#30000000'); 
+	BORDER-LEFT: #A4A4B0 1px solid; 
+	COLOR: #7A7A7A; 
+	BORDER-BOTTOM: #A4A4B0 1px solid; 
+	FONT-FAMILY: 'trebuchet ms',helvetica,sans-serif;
+	BACKGROUND-COLOR: #fff;
+}
+#btn{
+	FONT-FAMILY: 'trebuchet ms',helvetica,sans-serif;
+	FONT-WEIGHT: bold;
+	COLOR: #7A7A7A;
+	FONT-SIZE: 100%;
+}
+
+textarea.btn {
+	FONT-SIZE: 100%; 
+	COLOR: #7A7A7A;
+	border: 1px #A4A4B0 solid;
+	FONT-FAMILY: 'trebuchet ms',helvetica,sans-serif;
+	BACKGROUND-COLOR: #fff;
+	width:280px;
+}
+
+input.btn {
+	BORDER-RIGHT: #DEDEDE 1px solid; 
+	BORDER-TOP: #DEDEDE 1px solid; 
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 100%; 
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#00000000', EndColorStr='#30000000'); 
+	BORDER-LEFT: #DEDEDE 1px solid; 
+	COLOR: #7A7A7A; 
+	BORDER-BOTTOM: #DEDEDE 1px solid; 
+	FONT-FAMILY: 'trebuchet ms',helvetica,sans-serif;
+	BACKGROUND-COLOR: #fff;
+	width:80px;
+}
+input.btnhov{
+   border-top-color:#FFAE00;
+   border-left-color:#FFAE00;
+   border-right-color:#FFAE00;
+   border-bottom-color:#FFAE00;
+}
